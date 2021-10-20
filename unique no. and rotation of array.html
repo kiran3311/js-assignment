@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+ //Problem 1
+        function sol() {
+            let arr = [9,2, 3, 2, 6, 6];
+            let unique;
+            for (let i = 0; i < arr.length; i++) {
+                if (i === arr.indexOf(arr[i]) && i === arr.lastIndexOf(arr[i])) {
+                    unique = arr[i];
+                    break;
+                }
+            }
+            return unique;
+        }
+        console.log(sol())
+
+//Problem 2
+let n= 3
+let b = [1,2,3,4,5];
+let index = b.indexOf(n)
+
+let a = b.slice(index,)
+for(i=0; i<index; i++){
+    var v=(b[i])
+    let d= a.push(v)
+    
+}
+
+console.log(a)
+
+
+
+    </script>
+</body>
+
+</html>
